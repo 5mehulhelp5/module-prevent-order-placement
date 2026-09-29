@@ -34,8 +34,8 @@ class BlocklistSerialized extends ConfigValue
         ScopeConfigInterface $config,
         TypeListInterface $cacheTypeList,
         Json $serializer,
-        AbstractResource $resource = null,
-        AbstractDb $resourceCollection = null,
+        ?AbstractResource $resource = null,
+        ?AbstractDb $resourceCollection = null,
         array $data = []
     ) {
         parent::__construct(
